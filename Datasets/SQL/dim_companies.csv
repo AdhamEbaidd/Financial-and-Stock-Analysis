@@ -1,0 +1,16 @@
+ticker,company_name,sector
+AAPL,Apple Inc.,Technology
+MSFT,Microsoft Corporation,Technology
+GOOGL,Alphabet Inc.,Technology
+NVDA,NVIDIA Corporation,Technology
+META,"Meta Platforms, Inc.",Technology
+JNJ,Johnson & Johnson,Healthcare
+PFE,Pfizer Inc.,Healthcare
+UNH,UnitedHealth Group Incorporated,Healthcare
+MRK,"Merck & Co., Inc.",Healthcare
+ABBV,AbbVie Inc.,Healthcare
+PLD,"Prologis,Inc.",Real Estate
+AMT,American Tower Corporation,Real Estate
+WELL,Welltower Inc.,Real Estate
+DLR,"Digital Realty Trust, Inc.",Real Estate
+EQIX,"Equinix, Inc.",Real Estate
