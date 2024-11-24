@@ -166,11 +166,11 @@ This view calculates the average and current cash asset ratio for each company a
 
  **debt_to_equity_ratio**:  
 
-![debt_to_equity view creation](Media/SQL/Queries/debt_to_equity_1.png)   
+![debt_to_equity view creation](Media/SQL/Queries/debt_to_equity_ratio_1.png)   
 
  This view shows the debt to equity ratio of every company. The D/E ratio is an important metric in corporate finance. It is a measure of the degree to which a company is financing its operations with debt rather than its own resources.  
 
- ![debt_to_equity view result](Media/SQL/Queries/debt_to_equity_2.png)  
+ ![debt_to_equity view result](Media/SQL/Queries/debt_to_equity_ratio_2.png)  
 
 
 ## Power BI Report  
