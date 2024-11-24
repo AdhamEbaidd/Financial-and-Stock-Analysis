@@ -123,7 +123,7 @@ stock_data:
 
 ### Extracting Insights Using Queries  
 **Cash_Asset_Ratio**:  
- ![Cash_Asset_Ratio view creation](Media/SQL/Queries/cash_asset_ratio 1.png)
+ ![Cash_Asset_Ratio view creation](Media/SQL/Queries/cash_asset_ratio_1.png)
 This view calculates the average and current cash asset ratio for each company and sector. The `Current_Cash_Asset_Ratio` is specifically calculated for the first quarter of 2024.  
 
     
