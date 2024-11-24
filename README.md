@@ -22,7 +22,7 @@ This project showcases comprehensive data analysis integrating SQL, Python, and 
    3.1 [SQL Database Schema](#sql-database-schema)  
    3.2 [Table Creation Queries](#table-creation-queries)  
    3.3 [Extracting Insights Using Queries](#extracting-insights-using-queries)
-4. [Power BI Report](#power_bi_report)
+4. [Power BI Report](#power-bi-report)
 5. [DAX](#dax)
 6. [Conclusion](#conclusion)
 
