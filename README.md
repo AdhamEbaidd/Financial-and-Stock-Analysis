@@ -16,8 +16,9 @@ This project showcases comprehensive data analysis integrating SQL, Python, and 
 1. [Skills](#skills)
 2. [Data Extraction and Preparation ](#data-extraction-and-preparation)
 3. [SQL](#sql)  
-   3.1 [SQL Database Schema](#sql-database-schema)
-   3.2 [Table Creation Queries](#table-creation-queries)
+   3.1 [SQL Database Schema](#sql-database-schema)  
+   3.2 [Table Creation Queries](#table-creation-queries)  
+   3.3 [Extracting Insights Using Queries](#extracting-insights-using-queries)
 
 
 ## Skills
@@ -125,6 +126,8 @@ stock_data:
 **Cash_Asset_Ratio**:  
  ![Cash_Asset_Ratio view creation](Media/SQL/Queries/cash_asset_ratio_1.png)
 This view calculates the average and current cash asset ratio for each company and sector. The `Current_Cash_Asset_Ratio` is specifically calculated for the first quarter of 2024.  
+ ![Cash_Asset_Ratio view result](Media/SQL/Queries/cash_asset_ratio_2.png)
+
 
     
 
