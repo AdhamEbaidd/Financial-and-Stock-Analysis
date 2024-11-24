@@ -123,10 +123,62 @@ stock_data:
 );`  
 
 ### Extracting Insights Using Queries  
-**Cash_Asset_Ratio**:  
- ![Cash_Asset_Ratio view creation](Media/SQL/Queries/cash_asset_ratio_1.png)
+**Stock Performance Overview**: 
+
+![stock_performance_overview view creation](Media/SQL/Queries/stock_performance_over_view_1.png)  
+
+This view aims to give an overview of each company's stock price. it shows the lowest and the highest price the stock reached and the average stock price.   
+
+![stock_performance_overview view result](Media/SQL/Queries/stock_performance_over_view_2.png)  
+
+**sector_health**: 
+
+![sector_health view creation](Media/SQL/Queries/sector_health_1.png) 
+
+This view displays the average/current cash to asset ratio and debt to equity ratio for every sector to get an idea about the financial health of every sector.  
+
+![sector_health view result](Media/SQL/Queries/sector_health_2.png)  
+
+**latest_company_kpis**:  
+
+![latest_company_kpis view creation](Media/SQL/Queries/latest_company_kpis_1.png)  
+
+This view shows cruical metrics to evaluate each company's financial state and help in deciding wether to buy the stocks or not.  
+
+![latest_company_kpis view result](Media/SQL/Queries/latest_company_kpis_2.png)  
+
+
+**Cash_Asset_Ratio**:
+
+ ![Cash_Asset_Ratio view creation](Media/SQL/Queries/cash_asset_ratio_1.png)  
+ 
 This view calculates the average and current cash asset ratio for each company and sector. The `Current_Cash_Asset_Ratio` is specifically calculated for the third quarter of 2024.  
- ![Cash_Asset_Ratio view result](Media/SQL/Queries/cash_asset_ratio_2.png)
+
+ ![Cash_Asset_Ratio view result](Media/SQL/Queries/cash_asset_ratio_2.png)  
+
+ **volatility_analysis**:  
+
+ ![volatility_analysis view creation](Media/SQL/Queries/volatility_analysis_1.png)  
+
+ This view aims to show the volatility of every company's stock price or in other words , how much do the stocks change?. This is done by calculating the `Standard_Deviation` but the standard deviation is affected by the price of the stock itself so it might not give an accurate indication of what we are trying to understand hence why the view calculates and shows the `Average_Stock_Price` and the `Coeffecient_of_Variation` which is the standard deviation divided by the average stock price and shown as a precentage.  
+
+ ![volatility_analysis view result](Media/SQL/Queries/volatility_analysis_2.png)  
+
+ **debt_to_equity_ratio**:  
+
+![debt_to_equity view creation](Media/SQL/Queries/debt_to_equity_1.png)   
+
+ This view shows the debt to equity ratio of every company. The D/E ratio is an important metric in corporate finance. It is a measure of the degree to which a company is financing its operations with debt rather than its own resources.  
+
+ ![debt_to_equity view result](Media/SQL/Queries/debt_to_equity_2.png)  
+
+
+## Power BI Report  
+
+
+ 
+ 
+ 
 
 
     
